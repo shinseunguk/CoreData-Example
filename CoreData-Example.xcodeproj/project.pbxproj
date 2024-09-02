@@ -16,6 +16,8 @@
 		ACE69BE52C814AE9004C35FC /* CoreData_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE69BE42C814AE9004C35FC /* CoreData_ExampleTests.swift */; };
 		ACE69BEF2C814AE9004C35FC /* CoreData_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE69BEE2C814AE9004C35FC /* CoreData_ExampleUITests.swift */; };
 		ACE69BF12C814AE9004C35FC /* CoreData_ExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE69BF02C814AE9004C35FC /* CoreData_ExampleUITestsLaunchTests.swift */; };
+		ACE69C282C859FB8004C35FC /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE69C262C859FB8004C35FC /* Person+CoreDataClass.swift */; };
+		ACE69C292C859FB8004C35FC /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE69C272C859FB8004C35FC /* Person+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		ACE69BEA2C814AE9004C35FC /* CoreData-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CoreData-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE69BEE2C814AE9004C35FC /* CoreData_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData_ExampleUITests.swift; sourceTree = "<group>"; };
 		ACE69BF02C814AE9004C35FC /* CoreData_ExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData_ExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ACE69C262C859FB8004C35FC /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		ACE69C272C859FB8004C35FC /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 		ACE69BC22C814AE7004C35FC = {
 			isa = PBXGroup;
 			children = (
+				ACE69C262C859FB8004C35FC /* Person+CoreDataClass.swift */,
+				ACE69C272C859FB8004C35FC /* Person+CoreDataProperties.swift */,
 				ACE69BCD2C814AE7004C35FC /* CoreData-Example */,
 				ACE69BE32C814AE9004C35FC /* CoreData-ExampleTests */,
 				ACE69BED2C814AE9004C35FC /* CoreData-ExampleUITests */,
@@ -265,6 +271,8 @@
 			files = (
 				ACE69BD82C814AE8004C35FC /* Persistence.swift in Sources */,
 				ACE69BD12C814AE7004C35FC /* ContentView.swift in Sources */,
+				ACE69C282C859FB8004C35FC /* Person+CoreDataClass.swift in Sources */,
+				ACE69C292C859FB8004C35FC /* Person+CoreDataProperties.swift in Sources */,
 				ACE69BCF2C814AE7004C35FC /* CoreData_ExampleApp.swift in Sources */,
 				ACE69BDB2C814AE8004C35FC /* CoreData_Example.xcdatamodeld in Sources */,
 			);
